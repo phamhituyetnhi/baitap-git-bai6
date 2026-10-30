@@ -8,4 +8,8 @@ int main(void) {
  
     printf("Thuong = %.2f\n", a / b);
     return 0;
+    if (b == 0.0f) {
+        printf("Khong the chia cho 0.\n");
+        return 1;
+    }
 }
